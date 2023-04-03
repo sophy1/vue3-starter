@@ -54,6 +54,10 @@ import HelloWorld from '@/components/HelloWorld.vue'
 import { isDark, toggleDark } from '@/composables/useDark'
 const { locale, availableLocales } = useI18n()
 
+Vue.component('Todo', {
+  // ...
+})
+
 const gotoGitHub = () => {
   window.open('https://github.com/xiaoluoboding/vue3-starter', '_blank')
 }
